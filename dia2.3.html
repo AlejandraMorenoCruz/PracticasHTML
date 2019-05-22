@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    Teclea tu nombre: <input id="fname" type="text" name="fname" onblur="myFunction2()">
+    <p>Cuando abandonas el campo se dispara una acción</p>
+    <input type="submit" name="" value="ok" onclick="myFunction3()">
+
+    <script>
+      function myFunction2(){
+        var x = document.getElementById("fname");
+        x.value=x.value.toUpperCase();
+        if (x.value=="ALE"){
+          alert("Hola " + x.value);
+        }else{
+          alert("Hola desconocido");
+        }
+      }
+      function myFunction3(){
+        alert("Haz presionado el ratón");
+      }
+    </script>
+
+  </body>
+</html>

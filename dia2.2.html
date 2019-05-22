@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      function myfunction(){
+        alert("La página ha sido cargada");
+      }
+    </script>
+  </head>
+  <body onload="myfunction()">
+    <h2>Usa un script para modificar el texto</h2>
+    <p>Este texto escribe "hola mundo"</p>
+
+    <p id="demo"></p>
+
+    <script type="text/javascript">
+      document.getElementById("demo").innerHTML = "Hola javascript";
+    </script>
+  </body>
+</html>

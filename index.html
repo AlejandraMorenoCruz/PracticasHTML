@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Práctica de html</title>
+  </head>
+  <body>
+    <div id="pagina">
+      <div>maquí irá un anuncio</div>
+      <div id="artículo">
+        Aquí irá el contenido de texto del artículo</div>
+      <div>Aquí irá un anuncio</div>
+    </div>
+    <p style="background:darkblue; color:white;">Esto es un mensaje con estilos </p>
+<p>Este <strong>ejemplo</strong> de un elemento en línea; </p>
+    <form>
+      <input accesskey="N" placeholder="Nombre (ALT+N)"> <!-- Campo de datos -->
+      <input accesskey="A" placeholder="Apellidos (ALT+A)"> <!-- Campo de datos -->
+      <a href="#" accesskey="L">Enlace (ALT+L)</a> <!-- Enlace HTML -->
+      <button accesskey="B">Botón (ALT+B)</button> <!-- Botón HTML -->
+</form>
+    <div>
+      <img src="yo.jpg" width="400px" alt="Yo con Nutella" title="La bola de pelos es una Nuetella">
+    </div>
+    <h1>Pintando el arcoíris</h1> <p>Chicos, esta vez usaremos los siguientes colores: <span
+    style="color: #ed1b24">rojo</span>, <span style="color: #d9cc00">amarillo</span>, <span
+    style="color: #00a3e8">azul</span>, <span style="color: #a349a3">violeta</span>, <span
+    style="color: #ff7f26">naranja</span>, <span style="color: #a1cc1b">verde</span> e <span
+    style="color: #5701ae">índigo</span>.</p>
+    <a href="http://www.w3schools.com/html/">visita our html tutorial</a>
+    <ul style="list-style-type:none;">
+      <li>Café</li>
+      <li>Te</li>
+      <li>Leche</li>
+    </ul>
+    <ol style="list-style-type:;">
+      <li>Café</li>
+      <li>Te</li>
+      <li>Leche</li>
+    </<ol>
+      <table>
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+        <tr>
+          <td>Ernst Handel</td>
+          <td>Roland Mendel</td>
+          <td>Austria</td>
+        </tr>
+      </table>
+      <form name ="formulario" action="http://pagina.com/send.php" method="post">
+        <!--Primer campo de entrada de datos-->
+        <input type="text" name="nombre" value="Alejandra Moreno">
+        <textarea name="name" rows="8" cols="80"></textarea><br>
+        <label for="">¿Es usted mexicano?</label><br>
+        <input type="checkbox" name="Sí" value="si">Sí <br>
+        <input type="checkbox" name="No" value="no">No <br>
+        <input type="checkbox" name="no sabe/ no contesa" value="no sabe"> No sé <br>
+        <label for="">¿Es usted odioso?</label><br>
+        <input type="radio" name="respuesta" value="si" required >Sí <br>
+        <input type="radio" name="respuesta" value="no">No <br>
+        <input type="radio" name="respuesta" value="no sabe"> No sé <br>
+        <select >
+            <option value="1">enero</option>
+            <option value="2">febrero</option>
+            <option value="3">marzo</option>
+            <option value="4">abril</option>
+            <option value="5">mayo</option>
+            <option value="6">junio</option>
+            <option value="7">julio</option>
+            <option value="8">agosto</option>
+            <option value="9">septiembre</option>
+            <option value="10">octubre</option>
+            <option value="11">noviembre</option>
+            <option value="12">diciembre</option>
+        </select><br>
+        <input type="color" name="color" value="#00DAA9"><br>
+        <input type="file" name="archivo" value=""><br>
+        <!--botón de envío del formilario-->
+        <input type="submit" value="Enviar"><br>
+      </form>
+  </body>
+</html>
